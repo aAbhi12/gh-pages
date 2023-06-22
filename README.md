@@ -27,6 +27,13 @@ Sources used:
 2. GitHub
 
 NOTE:- I've also shared some screenshots of my work in the code.
+![1  Contract Compilation](https://github.com/aAbhi12/gh-pages/assets/69293488/30cbaf89-064b-42a4-b6a9-e0d16d12135d)
+![2  Contract Deployed](https://github.com/aAbhi12/gh-pages/assets/69293488/5e90dd17-dfd2-414c-8771-96e31fd8e7ac)
+![3  Live deployed address](https://github.com/aAbhi12/gh-pages/assets/69293488/9a60b335-1de7-477c-9ac7-f689bac4164a)
+![4  openzeppelin](https://github.com/aAbhi12/gh-pages/assets/69293488/014f2512-6048-4594-b3cc-30e8de1b70b3)
+![5  Live app on gh-pages](https://github.com/aAbhi12/gh-pages/assets/69293488/3b02a79e-3560-4fff-8df2-8cd52ed1a412)
+![6  MetaMask Wallet](https://github.com/aAbhi12/gh-pages/assets/69293488/2fb6ad21-6e9d-4e42-b14b-21f50f11bb79)
+![7  Error I'm facing](https://github.com/aAbhi12/gh-pages/assets/69293488/e096e076-c9ab-47f4-9a58-27f4abd623ac)
 
 I've tried my best to perform the task and still trying. Please consider my application if I fit for this internship position.
 Thank you
