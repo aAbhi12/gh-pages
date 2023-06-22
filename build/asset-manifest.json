@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blockchain-task-gh-pages/static/css/main.e6c13ad2.css",
+    "main.js": "/blockchain-task-gh-pages/static/js/main.c93d959a.js",
+    "static/js/787.6b7b054d.chunk.js": "/blockchain-task-gh-pages/static/js/787.6b7b054d.chunk.js",
+    "index.html": "/blockchain-task-gh-pages/index.html",
+    "main.e6c13ad2.css.map": "/blockchain-task-gh-pages/static/css/main.e6c13ad2.css.map",
+    "main.c93d959a.js.map": "/blockchain-task-gh-pages/static/js/main.c93d959a.js.map",
+    "787.6b7b054d.chunk.js.map": "/blockchain-task-gh-pages/static/js/787.6b7b054d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c93d959a.js"
+  ]
+}
