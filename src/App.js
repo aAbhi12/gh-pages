@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import connectEthereum from './eth';
+import MintForm from './components/MintForm';
+import NFTDisplay from './components/NFTDisplay';
 
-function App() {
+const App = () => {
+  const [ethereum, setEthereum] = useState(null);
+  const [contract, setContract] = useState(null);
+
+  useEffect(() => {
+    const connect = async () => {
+      const eth = await connectEthereum();
+      setEthereum(eth.provider);
+      setContract(eth.contract);
+    };
+    
+    connect();
+  }, []);
+
+  if (!ethereum) {
+    return <div>Loading Ethereum...</div>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>NFT App</h1>
+      {contract && <MintForm contract={contract} />}
+      {contract && <NFTDisplay contract={contract} />}
     </div>
   );
-}
+};
 
 export default App;
